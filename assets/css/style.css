@@ -226,19 +226,36 @@ footer ul.quick-links li{
     background-repeat: no-repeat;
 }
 .awesomesection{
-    color: aqua;
+    color:orange;
     font-family:'Times New Roman', Times, serif;
     font-size: 14px;
-    background-color:orange;
+    font-weight: bolder;
+    background-image: url(../images/flower2.jpg);
 
 }
 
 
 .educationsection{
-    color: crimson;
-    background-color: black;
-    color: black;
+    color:black;
+    font-size: 12px;
+    margin-bottom: 15px;
     
+    
+}
+.educationsection h1{
+    font-size: 18px;
+    color: chocolate;
+}
+.educationsection h2{
+    font-size: 12px;
+    color: chocolate;
+}
+
+.educationsection h1 h2 p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+
 }
 .aboutmesection{
     background-color: black;
@@ -250,33 +267,123 @@ footer ul.quick-links li{
 
 .funnymomentsection {
     
-    background-color: orange;
+    background-color:white;
     font-weight: 900px;
     font-family: 'Times New Roman', Times, serif;
     
     
 }
 .backgroundsection{
-        background-color: orange;
+        background-color:lightgrey;
 
 }
 .aboutmesection{
-    background-color: orange;
+    background-color: white;
     
     
 }
 .familysection{
-    background-color: orange;
+    background-color:lightcyan;
 
+}
+
+.educationsection img{
+    height: 100px;
+
+}
+
+.educationsection h1 h2{
+    font-size: 14px;
+}
+.careersection ul{
+    list-style: decimal-leading-zero;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.careersection{
+    background-image: url(../images/floweer4.jpg);
+    background-color: lightskyblue;
+    margin-top: 10px;
+}
+.careersection h1{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+
+}
+.careersection p{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.aboutmesection{
+    color: chocolate;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.careersection .card:hover{
+    box-shadow:0 0 10px crimson;
+    cursor: progress;
+    transition: 0.7s linear;
+    margin-bottom: 10px;
+
+}
+.educationsection img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: scale(1.5);
+   
+    transition: 0.5s linear;
+}
+.awesomesection h2.hover{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.aboutmesection{
+    font-size: 18px;
+    background-image: url(../images/bike5.jpg);
+
+}
+
+.learnmesection{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+    font-style: italic;
+}
+.funnymomentsection h1{
+    font-size: 18px;
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.backgroundsection h1{
+    font-size: 18px;
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 
+.groundsection img{
+    height: 450px;
+    width: 200px;
+}
+.groundsection h3{
+    font-size: 18px;
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.listsection p{
+    text-decoration: underline;
 
-
-
-
+}
+.designsection ol{
+    list-style-type: decimal-leading-zero;
+    list-style: decimal-leading-zero;
+}
 
 
 
